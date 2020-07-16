@@ -1,4 +1,4 @@
-document.addEventListener('keydown', function(event) {
+ocument.addEventListener('keydown', function(event) {
     if(event.keyCode != 46 && event.keyCode != 8 && event.keyCode != 9 && event.keyCode != 16 && event.keyCode != 18 && event.keyCode != 20 && event.keyCode != 144 && event.keyCode != 17){
         let i = document.getElementById("inp_whatsapp").value.length
         if(i === 2)
@@ -30,7 +30,7 @@ function submitForm() {
                 "resource": {
                     "data": [
                         {
-                            "range": "WebPageForm!A1",
+                            "range": "formPay!A1",
                             "values": [
                                 [
                                 userInput,
