@@ -40,6 +40,7 @@ function submitForm() {
                 "valueInputOption": "user_entered"
             })
         }
+        
         try {
             if(!/^(\d{2}) [0-9]\d{4}-[0-9]\d{3}$/gm.test(document.getElementById("inp_whatsapp").value)){
                 msgSucesso.innerHTML = 'Digite corretamente o WHATSAPP (11 99999-9999).'
