@@ -17,6 +17,7 @@ function submitForm() {
         const userInput = valores['inp_username'].value
         const emailInput = valores['inp_whatsapp'].value
         const mensagemInput = valores['inp_mensagem'].value
+        const empresaInput = valores['inp_empresa'].value
         const option = {
             method:'POST',
             headers:{
@@ -33,6 +34,7 @@ function submitForm() {
                         [
                         userInput,
                         emailInput,
+                        empresaInput,
                         mensagemInput
                         ]
                     ]
